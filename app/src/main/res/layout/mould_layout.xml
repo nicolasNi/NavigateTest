@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/bluetooth"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="75dp"
+        android:id="@+id/imageBluetooth" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/dashboard"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="68dp"
+        android:id="@+id/imageDashboard" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/navigation"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="136dp"
+        android:id="@+id/imageNavigation" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/wechat"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="204dp"
+        android:id="@+id/imageWechat" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/music"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="272dp"
+        android:id="@+id/imageMusic" />
+</RelativeLayout>
